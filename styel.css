@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+
+
+.container {
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    width: 60px;
+    padding: 15px 0;
+}
+
+nav ul {
+    margin-right: 100px;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text {
+    width: 40%;
+    margin: 100px;
+}
+
+.text h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+span {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.text p {
+    color: #fff;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 15px;
+    font-weight: 400;
+}
+
+.img .php {
+    width: 210px;
+    margin-left: 280px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+
+.img .php:hover {
+    transform: translateY(-15px);
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+.icon li {
+    color: #fff;
+    padding: 10px;
+    list-style: none;
+    transition: 0.4s;
+}
+
+.icon li:hover {
+    transform: translateY(-15px);
+
+}
+
+
+.pepsi {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.pepsi img {
+    width: 40px;
+    margin: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.pepsi img:hover {
+    transform: translateY(-15px);
+    bottom: 5px;
+}
